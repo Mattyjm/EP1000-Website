@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matthew Ng's EP1000 Website</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	
+	<body>
+		<div id="container" width="800">
+		
+			<div id="header">
+			
+				<h1>My website</h1>
+				
+			</div>
+
+			<div id="content">
+			
+				<div id="nav">
+				
+					<h3>Navigation</h3>
+					
+					<ul>
+						<li><a class="selected" href="index.html"> Home </a></li>
+						<li><a href="about.html"> About </a></li>
+						<li><a href="01-safety.html"> Fablab Safety </a></li>
+						<li><a href="02-web.html"> Web Development </a></li>
+						<li><a href="03-2ddraw.html"> 2D Drawing </a></li>
+						<li><a href="04-cad.html"> CAD </a></li>
+						<li><a href="05-3dmodelling.html"> 3D Modelling </a></li> 
+						<li><a href="06-3dprint.html"> 3D Printing </a></li> 
+						<li><a href="07-laser.html"> Laser Cutting </a></li>
+                        <li><a href="09-project.html"> Final Project </a></li>
+					</ul>
+					
+				</div>
+				
+				<div id="main" align="center">
+				
+					<p align="center"> Here, I will document the assignments where the 3D printer was used. 
+					<br> We used the 3D printer to make a model chess knight, as well as a phone stand. </p>
+					
+					
+					<h3 align="center"> Assignment: Knight </h3>
+						<p> The assignment we were given to do was making a chess knight. On the right you can see the final model in Fusion360. </p> 
+						
+						<table align="center" width="1000" >
+						
+							<tr align ="center" width="" >  
+								<th> <img src="images/3D Print/Exercise3.png" width="460" height=""> </th>
+								<th> <iframe src="https://ichat2945.autodesk360.com/shares/public/SH35dfcQT936092f0e43a57d59f9ead3be43?mode=embed" 
+								width="500" height="375" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe> </th>
+							</tr>
+							
+						</table>
+						
+					
+						
+						<table align="center" width="800" >
+							<tr>  
+								<th> Steps </th>
+								<th> Photos </th>
+							</tr>
+							
+							<tr>
+								<td> First, I imported the image of the knight into Fusion360 as a canvas. 
+								<br> <br> This will allow me to trace the image, and create the outline easily. I then traced out the base. </td>
+								<td> <img src="images/3D Print/knight_base.png" width="380" height=""></td>
+							</tr>
+							
+							<tr>
+								<td> Next, I used the Revolve tool to create the circular base. </td>
+								<td> <img src="images/3D Print/knight_noshell.png" width="380" height="">
+								</td>
+							</tr>
+							
+							<tr>
+								<td> I then used the Shell tool to make the base hollow (as per instructions). </td>
+								<td> <img src="images/3D Print/knight_shell.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Using the canvas, I traced out the top of the knight. </td>
+								<td> <img src="images/3D Print/knight_top.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td>  After using the Extrude Tool (symmetrical extrude), the top of the knight is created. </td>
+								<td> <img src="images/3D Print/knight_extrude.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td>  Added eyes using the Hole Tool. </td>
+								<td> <img src="images/3D Print/knight_eyes.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td>  Added eyes on the other side using the Mirror Tool. </td>
+								<td> <img src="images/3D Print/knight_eyesmirror.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td>  Creation of a tangent place to make the ears.</td>
+								<td> <img src="images/3D Print/knight_ears.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Use of Fillet Tool to remove sharp edges. </td>
+								<td> <img src="images/3D Print/knight_fillet.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Use of Chamfer Tool to remove sharp edges. </td>
+								<td> <img src="images/3D Print/knight_chamfer.png" width="380" height=""> </td>
+							</tr>
+							
+						</table>
+						
+						
+					<h4 align="center"> 3D Printing (Chess Knight) </h4>
+						<p> 
+							I then ran my model through the slicing software (Cura) to be sent to the 3D printer (Ultimaker 2+).
+						</p>
+						
+						<p align="center">
+							<br> Settings used: 
+							<br> Layer Height: 0.3mm, Infill Density: 10%, Print Speed: 60mm/s
+						</p>
+				
+					<table align="center" width="1000" >
+						
+							<tr align ="center" width="" >  
+								<th> <img src="images/3D Print/knight_3dprint.jpg" width="340" height=""> </th>
+								<th> <img src="images/3D Print/knight_cura_settings.png" width="600" height=""> </th>
+							</tr>
+							
+					</table>
+					
+					
+					<h4 align="center"> Assignment: Phone Stand </h4>
+						<p> 
+							The next assignment we were given was to create a phone stand. I created a simple design; so as to reduce the need for supports and wasted material.
+						</p>
+						
+						
+						<table align="center" width="800" >
+							<tr>  
+								<th> Steps </th>
+								<th> Photos </th>
+							</tr>
+							
+							<tr>
+								<td> I started out with a simple sketch of the phone stand. I wanted it be tilted at about 65-70 degrees. 
+								<br> <br> Thickness of the stand is 2.5mm. </td>
+								<td> <img src="images/3D Print/phonestand_sketch.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> I then used the Extrude Tool (symmetrical extrude) to create the shape.
+								<br> <br> Extrusion is 50mm total. </td>
+								<td> <img src="images/3D Print/phonestand_extrude.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Use of Fillet Tool to remove sharp edges. </td>
+								<td> <img src="images/3D Print/phonestand_fillet.png" width="380" height=""> </td>
+							</tr>
+							
+						</table>
+						
+					
+						
+						<h4 align="center"> 3D Printing (Phone Stand) </h4>
+						<p> 
+							I then ran my model through the slicing software (Cura) to be sent to the 3D printer (Ultimaker 2+). (insert phonestand when get it back)
+						</p>
+						
+						<p align="center">
+							<br> Settings used: 
+							<br> Layer Height: 0.3mm, Infill Density: 10%, Print Speed: 60mm/s
+						</p>
+				
+					<table align="center" width="1000" >
+						
+							<tr align ="center" width="" >  
+								<th> <img src="images/3D Print/knight_3dprint.jpg" width="340" height=""> </th>
+								<th> <img src="images/3D Print/phonestand_cura_settings.png" width="600" height=""> </th>
+							</tr>
+							
+						</table>
+				</div>
+				
+				<div id="footer">
+					Copyright &copy; Matthew Ng 2022
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	
+        <title>Matthew Ng's EP1000 Website</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+	
+    <body>
+	
+        <div id="container" width="800">
+            
+			<div id="header">
+                
+				<h1> 3D Modelling</h1>
+            </div>
+			
+            <div id="content">
+                
+				<div id="nav">
+                    
+					<h3> Navigation </h3>
+                    
+					<ul>
+						<li><a class="selected" href="index.html"> Home </a></li>
+						<li><a href="about.html"> About </a></li>
+						<li><a href="01-safety.html"> Fablab Safety </a></li>
+						<li><a href="02-web.html"> Web Development </a></li>
+						<li><a href="03-2ddraw.html"> 2D Drawing </a></li>
+						<li><a href="04-cad.html"> CAD </a></li>
+						<li><a href="05-3dmodelling.html"> 3D Modelling </a></li> 
+						<li><a href="06-3dprint.html"> 3D Printing </a></li> 
+						<li><a href="07-laser.html"> Laser Cutting </a></li>
+                        <li><a href="09-project.html"> Final Project </a></li>
+					</ul>
+					
+                </div>
+				
+                <div id="main" align="center">
+				
+                    <h2 align="center"> 3D Modelling </h2>
+					
+					<p> 
+						This page will document the 3D printing process, as well as how I was able to to design files for 3D printing & get the 3D printed object.
+						This page will show the mug + hex nut, and how to create the knight piece.
+					</p>
+					
+					
+					<h3 align="center"> Exercise 1: Mug </h3>
+					
+						<p> The first exercise we did was making a mug.  Since we were able to use our own design I used my own and made a rocket-looking mug. </p>
+						
+						
+						<table align="center" width="1000" height="520">
+						
+							<tr align ="center" width="" >  
+								<th> <img src="images/3D Print/Exercise1.png" width="340" height=""> </th>
+								<th> <iframe src="https://ichat2945.autodesk360.com/shares/public/SH35dfcQT936092f0e431f2d670e8961fd3d?mode=embed" 
+								width="600" height="450" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe> </th>
+							</tr>
+							
+						</table>
+						
+						
+						<table align="center" width="800" >
+							<tr>  
+								<th> Steps </th>
+								<th> Photos </th>
+							</th>
+							
+							<tr>
+								<td> I started by sketching the profile by using the Arc tool to create a simple design, and a arc at the base (as per requirements).
+								<br> <br> Diameter of mug is 25mm, and height is 80mm. </td>
+								<td> <img src="images/3D Modelling/mug_sketch.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> I used the Revolve Tool to create the solid. </td>
+								<td> <img src="images/3D Modelling/mug_revolve.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> I then used the Shell tool to make the internal cavity.
+								<br> Wall thickness is 2.5mm (as per requirements). </td>
+								<td> <img src="images/3D Modelling/mug_shell.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> The mug handle profile is a simple sketch, by creating the external side, and using the Offset Tool to create the internal side. 
+								<br> <br> Offset is 3mm from the external side. </td>
+								<td> <img src="images/3D Modelling/mug_handle.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Using Extrude Tool (symmetrical extrude), the mug handle is created.
+								<br> <br> Thickness of the handle is 6mm (as per requirements). </td>
+								<td> <img src="images/3D Modelling/mug_extrude.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Use of Fillet Tool to remove sharp edges. </td>
+								<td> <img src="images/3D Modelling/mug_fillet.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Use of Chamfer Tool to remove sharp edges. </td>
+								<td> <img src="images/3D Modelling/mug_chamfer.png" width="380" height=""> </td>
+							</tr>
+						</table>
+						
+						
+					
+						<h3 align="center"> Exercise 2: Hex Nut </h3>
+					
+							<p> The second model we did was making a Hex nut via <a href="https://www.youtube.com/watch?v=Xho87HJ-XDo" style="color:#1800FF;"> this video</a>. </p>
+						
+							<table align="center" width="1000" height="570">
+						
+								<tr align ="center" width="" >  
+									<th> <iframe width="370" height="208" src="https://www.youtube.com/embed/Xho87HJ-XDo" title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </th>
+									<th> <iframe src="https://ichat2945.autodesk360.com/shares/public/SH35dfcQT936092f0e437b3797151b274fe4?mode=embed" 
+									width="600" height="450" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>  </th>
+								</tr>
+							
+							</table>
+
+                </div>
+				
+            </div>
+			
+            <div id="footer">
+                Copyright &copy; Matthew Ng 2022
+            </div>
+			
+        </div>
+		
+    </body>
+	
+</html>

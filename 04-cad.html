@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matthew Ng's EP1000 Website</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	
+	<body>
+		<div id="container" width="800">
+		
+			<div id="header">
+				<h1> My website </h1>
+			</div>
+			
+			<div id="content">
+			
+				<div id="nav">
+					<h3> Navigation </h3>
+					<ul>
+						<li><a class="selected" href="index.html"> Home </a></li>
+						<li><a href="about.html"> About </a></li>
+						<li><a href="01-safety.html"> Fablab Safety </a></li>
+						<li><a href="02-web.html"> Web Development </a></li>
+						<li><a href="03-2ddraw.html"> 2D Drawing </a></li>
+						<li><a href="04-cad.html"> CAD </a></li>
+						<li><a href="05-3dmodelling.html"> 3D Modelling </a></li> 
+						<li><a href="06-3dprint.html"> 3D Printing </a></li> 
+						<li><a href="07-laser.html"> Laser Cutting </a></li>
+                        <li><a href="09-project.html"> Final Project </a></li>
+					</ul>
+				</div>
+				
+				<div id="main">
+				
+					<h2 align="center"> 3D modelling/CAD </h2>
+					
+					<p>
+						<br> In this lesson, we learned about basic operations in Fusion360/Inventor. I used Inventor (for the majority) as I was more comfortble with it. 
+					</p>
+					
+					<h3 align="center"> Exercise 1 : Name Tag </h3>
+							
+							<p>The first exercise we did was making a nametag. One new feature i learned was the "Emboss" feature that allowed me to choose a profile (in this case a text box), and emboss it on any surface i wanted. </p>
+							
+						<table align="center" width="1000" height="570">
+						
+							<tr align ="center" width="" > 
+								<th> <img src="images/3D CAD/Exercise1.png" width="370" height=""> </th>
+								<th> <iframe src="https://ichat2945.autodesk360.com/shares/public/SH35dfcQT936092f0e43047e5f310a144204?mode=embed" 
+								width="600" height="450" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe> </th>
+							</tr>
+							
+						</table>		
+						
+						<table align="center" width="800" >
+						
+							<tr>  
+								<th> Steps </th>
+								<th> Photos </th>
+							</th>
+							
+							<tr>
+								<td> Sketch out basic profile.
+								<br> <br> Dimensions are 70 by 30mm, with a 4mm keyhole. Internal line is made using Offset Tool, with 1.5mm offset.</td>
+								<td> <img src="images/3D CAD/nametag_sketch.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Extrude to create the solid.
+								<br> <br> The external lip is a 4mm extrusion, internal is 1.5mm. </td>
+								<td> <img src="images/3D CAD/nametag_extrude.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Using a text box, I typed my name in, and use the Emboss Tool to extrude the profile by 2mm. </td>
+								<td> <img src="images/3D CAD/nametag_emboss.png" width="380" height=""> </td>
+							</tr>
+						
+						</table>
+					
+					<h3 align="center"> Exercise 2: Lego Brick </h3>
+					
+						<p> 
+							The second model we did was making a Lego brick via <a href="https://www.youtube.com/watch?v=6yPKMSb6ja8" style="color:#1800FF;"> this video</a>. This used a command that was new to me, which was "Shell". 
+							This removed material from the center, and created a wall of defined thickness around the whole solid.
+						</p>
+						
+						<table align="center" width="1000" height="570">
+						
+							<tr align ="center" width="" >  
+								<th> <iframe width="370" height="208" src="https://www.youtube.com/embed/6yPKMSb6ja8" title="YouTube video player" 
+								frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></th>
+								<th> <iframe src="https://ichat2945.autodesk360.com/shares/public/SH35dfcQT936092f0e43d58f866bc8c80c03?mode=embed" 
+								width="600" height="450" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"> </iframe> </th>
+							</tr>
+							
+						</table>
+					
+					<h3 align="center"> Exercise 3: Cube Stack  </h3>
+					
+						<p> 
+							Next, we were challenged to make a stack of cubes. There are many ways of doing it. 
+							<br>I did it systematically, layer by layer (as seen below), so as to reduce the number of sketches and extrusions needed.
+						</p>
+						
+						<table align="center" width="1000" height="420">
+						
+							<tr align ="center" width="" >  
+								<th> <img src="images/3D CAD/Exercise3.png" width="370" height=""> </th>
+								<th> <iframe src="https://ichat2945.autodesk360.com/shares/public/SH35dfcQT936092f0e43b066258a4b206f72?mode=embed"
+								width="600" height="450" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe> </th>
+							</tr>
+							
+						</table>
+						
+						<table align="center" width="800" >
+						
+							<tr>  
+								<th> Steps </th>
+								<th> Photos </th>
+							</th>
+							
+							<tr>
+								<td> Layer 1 (Bottom Layer)
+								<br> <br> I used this layer to dimension everthing correctly, so there is no dimensioning needed for the subsequent levels.</td>
+								<td> <img src="images/3D CAD/cubestack_layer1.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Extrude previous layer (20mm) + Layer 2 </td>
+								<td> <img src="images/3D CAD/cubestack_layer2.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Extrude previous layer (20mm) + Layer 3 </td>
+								<td> <img src="images/3D CAD/cubestack_layer3.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Extrude previous layer (20mm)+ Layer 4 </td>
+								<td> <img src="images/3D CAD/cubestack_layer4.png" width="380" height=""> </td>
+							</tr>
+							
+							<tr>
+								<td> Using the Shell tool to make the internal cavity. 
+								<br> <br> Shell thickness is 4mm (as per requirements). </td>
+								<td> <img src="images/3D CAD/cubestack_shell.png" width="380" height=""> </td>
+							</tr>
+							
+						</table>
+						
+				</div>
+			
+			<div id="footer">
+				Copyright &copy; Matthew Ng 2022
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>
+
