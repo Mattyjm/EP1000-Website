@@ -67,7 +67,11 @@
 					<p align="right"> retrieved from <a href="https://www.arduino.cc/en/Guide/Introduction" style="color:#0000FF"> arduino.cc</a>. </p>
 					
 				
-					<h3 align="center"> Arduino (Output): </h3>
+				
+				
+				
+				
+					<h3 align="center"> Arduino (& segment): </h3>
 						
 					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/aoc5MbzV074?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					
@@ -75,11 +79,48 @@
 					This is a simple 10 second countdown timer made with the void(loop) functiion, and using the digital output pins 2 through 8.
 					
 					<br><br> The code is done via brute force; where there is no algorithm that is it based on, and is created via copy/pasting and editng the digitalWrite values according to the number that needs to be shown.
-					This is a extremely inefficient way of creating code.
+					This is a extremely inefficient way of creating code, and is one of the problems that can be a issue when the assigments get more complex and have more steps.
+					
+					
+					
+					
 					
 					<h3 align="center"> Arduino (Input): </h3>
 					
-					<p align="center">  insert Arduino input simulation here </p>
+					<h4 align="center"> Simple LED Control:</h4>
+					
+					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/cVBKXdOtXKu?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+					Task: Connect a LED with a current limiting resistor (220 ohm) to port 6 of the Arduino Uno board, and write a program to blink the LED in a variety of patterns.
+					<br> In this case, the pattern was just simply to blink with 200 millisecond intervals (stay on for 200ms, turn off for 200ms).
+					
+					
+					<h4 align="center"> Controlling 3 or more LEDs:</h4>
+					
+					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/7hnU9YazOPI?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+					Task: Using the same technique, connect 3 or more LEDs of different colors to the Arduino board using pins 6, 7, and 8. Write a program to produce running lights i.e. the LEDs are lit in sequence e.g. R -> G -> W -> R -> G -> W and so on.
+					<br> I built on the code from the previous part, and added cases for each possible situation for when the LEDs light up. I then created a integer value that increases by 1 every loop. 
+					Its modulus of 4 (3 cases + 1 overflow) is used to determine which LED turns on.
+					
+					<h4 align="center"> Adding a switch: </h4>
+					
+					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/biwrXur6I6K?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+					Task: add a switch to the circuit in (2). You should use a pull-up resistor of 10K if you are operating in INPUT mode. When the switch is pressed, the LEDs will light up. Pressing the switch again will turn the LEDs off.
+					<br> Continuing to build on the previous code, I just added a button to 
+					
+					
+					<h4 align="center"> Simple LED connector:</h4>
+					
+					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/5UX03sbAl3B?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+				 	
+					<h4 align="center"> Simple LED connector:</h4>
+					
+					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/5UX03sbAl3B?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+					
+					<h4 align="center"> Simple LED connector:</h4>
+					
+					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/a0U02bOSR3H?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+					
+					
 					
 					
 					
