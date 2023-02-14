@@ -73,7 +73,7 @@
 				
 				
 				
-					<h3 align="center"> Arduino (& segment): </h3>
+					<h3 align="center"> Arduino with 7 segment display: </h3>
 						
 					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/aoc5MbzV074?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					
@@ -83,9 +83,7 @@
 					<br><br> The code is done via brute force; where there is no algorithm that is it based on, and is created via copy/pasting and editng the digitalWrite values according to the number that needs to be shown.
 					This is a extremely inefficient way of creating code, and is one of the problems that can be a issue when the assigments get more complex and have more steps.
 					
-					
-					
-					
+
 					
 					<h3 align="center"> Arduino (Input): </h3>
 					
@@ -93,41 +91,41 @@
 					
 					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/cVBKXdOtXKu?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					Task: Connect a LED with a current limiting resistor (220 ohm) to port 6 of the Arduino Uno board, and write a program to blink the LED in a variety of patterns.
-					<br> In this case, the pattern was just simply to blink with 200 millisecond intervals (stay on for 200ms, turn off for 200ms).
+					<br> <br> Solution: Adding a delay between its on and off states. In this case, the pattern was just simply to blink with 200 millisecond intervals (stay on for 200ms, turn off for 200ms).
 					
 					
 					<h4 align="center"> Controlling 3 or more LEDs:</h4>
 					
 					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/7hnU9YazOPI?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					Task: Using the same technique, connect 3 or more LEDs of different colors to the Arduino board using pins 6, 7, and 8. Write a program to produce running lights i.e. the LEDs are lit in sequence e.g. R -> G -> B  and so on.
-					<br> Solution: I built on the code from the previous part, and added cases for each possible situation for when the LEDs light up. I then created a integer value that increases by 1 every loop. 
+					<br> <br> Solution: I built on the code from the previous part, and added cases for each possible situation for when the LEDs light up. I then created a integer value that increases by 1 every loop. 
 					Its modulus of 4 (3 cases + 1 overflow) is used to determine which LED turns on.
 					
 					<h4 align="center"> Adding a switch: </h4>
 					
 					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/biwrXur6I6K?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					Task: add a switch to the circuit in (2). You should use a pull-up resistor of 10K if you are operating in INPUT mode. When the switch is pressed, the LEDs will light up. Pressing the switch again will turn the LEDs off.
-					<br> Solution: Added a button to start/stop the cycling of the LEDs. (not finished yet)
+					<br> <br> Solution: Added a button to start/stop the cycling of the LEDs.
 					
 					
 					<h4 align="center"> Using the switch to control states:</h4>
 					
 					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/5UX03sbAl3B?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					Task: Use the switch to control the type of light-up and flashing of the LEDs. Initial all LEDs are in the OFF state. With each press of the button, the next LED lights up, and all then LEDs turn on, and off.
-					<br> Solution: I added more cases for the LEDs to all turn on and off, using a counter to cycle through the states.
+					<br> <br> Solution: I added more cases for the LEDs to all turn on and off, using a counter to cycle through the states.
 				 	
 					<h4 align="center"> Flash LED: </h4>
 					
-					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/5UX03sbAl3B?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/a0U02bOSR3H?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					Task: Modify the program to make the LEDs flash.
-					<br> Solution: This is done easily buy adding a delay to when the LEDs turn on and off.
+					<br> <br> Solution: This is done easily buy adding a delay to when the LEDs turn on and off.
 					
 		
-					<h4 align="center"> Simple LED connector:</h4>
+					<h4 align="center"> Press & Hold to turn off:</h4>
 					
-					<p align="center"> <iframe width="800" height="453" src="https://www.tinkercad.com/embed/a0U02bOSR3H?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+					<p align="center"> <iframe width="725" height="453" src="https://www.tinkercad.com/embed/6xWNwSpbfF6?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
 					Task: Modify the program to make the LEDs turn off after holding the power button for 3 seconds.
-					<br> Solution: (not done)
+					<br> <br> Solution: add a nested loop as a timer to count the time the button has been held (in milliseconds). When timer reaches max value (3000ms), LEDs turn off.
 					
 					
 				</div>
